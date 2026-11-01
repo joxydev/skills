@@ -6,6 +6,25 @@ guides** (`tools/integrations/` + `tools/REGISTRY.md`). Skills follow the
 (frontmatter `name` matching the directory + a long routing `description`), `references/`
 deep-dives, and `evals/evals.json`.
 
+## Before every task: skill discovery and use
+
+- Review the available skill catalog, including skills supplied by the runtime and plugins.
+  This repository's skills are also discoverable under `.agents/skills/` and live in
+  `skills/`. For this large library, use `SKILLS-CATALOG.md` as a searchable index and
+  inspect current skill directories as needed; the runtime's injected list can be
+  truncated and the index is a snapshot. Do not assume the index contains plugins or
+  runtime skills from another session.
+- Identify the skills relevant to the request from their names and descriptions. When the
+  user explicitly names a skill, include it in the plan; avoid selecting skills solely on
+  superficial keyword matches.
+- Read the complete `SKILL.md` of each selected skill through its available provider, then
+  follow its applicable instructions and load referenced resources when required. User
+  instructions and higher-priority instructions take precedence over skill guidance.
+- Do not silently ignore a relevant skill. If a selected skill cannot be loaded, report why
+  and proceed as far as possible. If no skill is relevant, proceed normally.
+- A skill's presence does not guarantee its external tools, services, credentials, or
+  dependencies are available. Check the capabilities needed for the actual task.
+
 ## Before committing anything
 
 ```bash
