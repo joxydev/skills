@@ -1,2 +1,18 @@
 .DS_Store
 dist/
+
+# Product images and publication materials may be private. Keep folders, not their contents.
+/products/raw/*
+!/products/raw/.gitkeep
+/products/selected/*
+!/products/selected/.gitkeep
+/products/processed/*
+!/products/processed/.gitkeep
+/products/exports/*
+!/products/exports/.gitkeep
+/posts/drafts/*
+!/posts/drafts/.gitkeep
+/posts/approved/*
+!/posts/approved/.gitkeep
+/posts/published/*
+!/posts/published/.gitkeep

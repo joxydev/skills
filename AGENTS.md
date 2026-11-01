@@ -25,6 +25,22 @@ deep-dives, and `evals/evals.json`.
 - A skill's presence does not guarantee its external tools, services, credentials, or
   dependencies are available. Check the capabilities needed for the actual task.
 
+## Product content: verstakmd
+
+Before preparing content, editing product imagery, or planning publications for the shop,
+read `brand/brand-profile.md`, `brand/visual-style-guide.md`, and `brand/product-rules.md`,
+then apply `docs/agent-operating-rules.md` and the relevant task-specific templates.
+Treat the brand profile as provisional where it requests confirmation. Use real product
+photos and preserve the product's actual appearance; follow the product-preservation rules
+and inspect the result against the source rather than assuming a prompt guarantees fidelity.
+Do not invent product facts, customer proof, prices, or delivery terms. Ask only for
+information needed to complete the current task and provide two or three options when
+appropriate. Obtain the required confirmation before scheduling or publishing.
+For relevant marketing strategy, social, copywriting, or advertising tasks, also inspect
+the applicable skill in `vendor/marketing-skills/skills/`; these are pinned local copies
+and are not automatically listed as Codex-discoverable skills. Read the full relevant
+`SKILL.md` and necessary resources, subject to the user's instructions and project rules.
+
 ## Before committing anything
 
 ```bash
