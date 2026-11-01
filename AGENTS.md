@@ -85,3 +85,5 @@ banned claim patterns. CI runs the same script on every PR.
 
 Bump `version` in `.claude-plugin/plugin.json` **and** `.claude-plugin/marketplace.json`, add a
 `VERSIONS.md` entry, tag, and attach fresh `dist/` ZIPs to the GitHub release.
+
+For verstakmd product imagery, read `skills/verstak-product-reference/SKILL.md` and its reference inventory. Icons stand upright on the table; backgammon and chess boards lie flat.
