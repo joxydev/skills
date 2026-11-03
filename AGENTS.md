@@ -31,8 +31,12 @@ Before preparing content, editing product imagery, or planning publications for 
 read `brand/brand-profile.md`, `brand/visual-style-guide.md`, and `brand/product-rules.md`,
 then apply `docs/agent-operating-rules.md` and the relevant task-specific templates.
 Treat the brand profile as provisional where it requests confirmation. Use real product
-photos and preserve the product's actual appearance; follow the product-preservation rules
-and inspect the result against the source rather than assuming a prompt guarantees fidelity.
+photos as the reference for the product's actual appearance. Full image generation from
+the supplied photograph is allowed: repeat all visible details, wood texture, grain,
+color, carving, lettering, faces, hands, and proportions as accurately as possible while
+changing the requested composition, background, table, and placement. An original pixel
+layer or editing mask is not required. Follow the product-preservation rules and inspect
+the generated result against the reference rather than promising pixel identity.
 Do not invent product facts, customer proof, prices, or delivery terms. Ask only for
 information needed to complete the current task and provide two or three options when
 appropriate. Obtain the required confirmation before scheduling or publishing.
