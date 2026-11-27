@@ -12,7 +12,7 @@ description: >-
   products/documents), no defect concealment, body-retouch disclosure honored, no
   watermark/provenance stripping. Distinct from image-prompt/flux/nano-banana (generation), canva
   (the design workflow), and before-after-and-transformation (the claim rules).
-version: 1.0.0
+version: 1.1.0
 ---
 
 # ai-image-editing
@@ -51,6 +51,14 @@ exclusively on licensed content); quick fixes stay in Canva; product batches go 
   in-image text, batch consistency, identity drift.
 - **H — Hand off with rights:** source license + engine terms (Firefly indemnification vs FLUX
   outputs-vs-service) + disclosure labels; master as PNG/TIFF → WoopSocial.
+
+## Fixed-scene product photo series (mandatory for multi-angle catalog batches)
+
+- Treat the entire batch as one real, stationary product photographed by a moving camera. Never move, rotate, resize, mirror, recrop, or rebuild the product to fit the background. Match each original camera pose, focal length/perspective, framing, crop, and depth of field; preserve all visible geometry, hardware, fine details, authentic color, grain, finish and imperfections. Do not invent obscured or blurred details.
+- Establish one approved scene reference before editing the batch: a bare natural light oak tabletop with subtle straight grain running along its long axis, a neutral warm off-white matte wall, and soft neutral diffuse illumination. Keep the same specific wood texture, grain direction in world coordinates, color, scale, finish, table geometry, wall color and lighting across every frame. Project the tabletop grain and table/wall boundary according to the original camera perspective; never paste an identical screen-space texture or horizon into every view.
+- Anchor the object's original stand directly on the same tabletop with coherent contact shadows and unchanged world-space orientation relative to the table and wall. Do not add table surface in areas where the original angle would not see it. For closeups, show only the surfaces that would naturally be visible from that camera position.
+- Remove all unrelated objects, cloths, mats, decorations, furniture, and clutter; the product and its original integral stand are the only objects. Retain actual components of the product. Reduce harsh white/colored reflections without changing the actual glossy finish.
+- Use the source photo as the authoritative geometry reference and a shared approved scene image solely as the background/lighting reference for every subsequent shot. Prefer precise background masks and non-generative product corrections when possible. Deliver one separate image per input, not a collage. Compare the entire series for consistent tabletop texture/color, wall, lighting, perspective, contact and product fidelity; redo inconsistent shots. Flag any generative detail drift rather than claiming pixel-exact preservation.
 
 ## The reality (verify-quarterly)
 2026 editing: background removal handles hair/glass (e-commerce dropped manual masking); **FLUX Kontext/Fill**
